@@ -1,5 +1,5 @@
 {
-  "name": "@lookapanda/extplane-ts",
+  "name": "@ponjimon/extplane-ts",
   "version": "1.0.0",
   "engines": {
     "node": ">=10.18"
@@ -8,12 +8,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lookapanda/extplane-ts.git"
+    "url": "git@github.com:ponjimon/extplane-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/lookapanda/extplane-ts/issues"
+    "url": "https://github.com/ponjimon/extplane-ts/issues"
   },
-  "author": "lookapanda <sn@hitbox.tv> (https://github.com/lookapanda)",
+  "author": "Simon Nußbaumer <sn@hitbox.tv> (https://github.com/ponjimon)",
   "main": "dist/index.js",
   "module": "dist/extplane-ts.esm.js",
   "typings": "dist/index.d.js",

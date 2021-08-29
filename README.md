@@ -1,8 +1,8 @@
 # extplane-ts #
 
-![License](https://img.shields.io/github/license/lookapanda/extplane-ts)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/lookapanda/extplane-ts)
-![Build Status](https://img.shields.io/github/workflow/status/lookapanda/extplane-ts/Release)
+![License](https://img.shields.io/github/license/ponjimon/extplane-ts)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ponjimon/extplane-ts)
+![Build Status](https://img.shields.io/github/workflow/status/ponjimon/extplane-ts/Release)
 
 A TypeScript client library for nodeJs that uses the [ExtPlane plugin](https://github.com/vranki/ExtPlane).
 
@@ -17,13 +17,13 @@ Based on [ExtPlaneJs](https://github.com/wadedos/ExtPlaneJs)
 Install via npm
 
 ```
-$ npm install --save @lookapanda/extplane-js
+$ npm install --save @ponjimon/extplane-js
 ```
 
 Install via yarn
 
 ```
-$ yarn add @lookapanda/extplane-js
+$ yarn add @ponjimon/extplane-js
 ```
 
 
@@ -31,7 +31,7 @@ $ yarn add @lookapanda/extplane-js
 
 
 ```typescript
-const { ExtPlane } = '@lookapanda/extplane-js';
+const { ExtPlane } = '@ponjimon/extplane-js';
 
 const extPlane = new ExtPlane({
     host: '127.0.0.1',
