@@ -1,13 +1,16 @@
 import { Socket, connect } from 'net';
 import Debug from 'debug';
-import { fromEvent, Observable, from, BehaviorSubject } from 'rxjs';
 import {
+    fromEvent,
+    Observable,
+    from,
+    BehaviorSubject,
     first,
     takeUntil,
-    map,
-    filter,
     mergeMap,
-} from 'rxjs/operators';
+    filter,
+    map,
+} from 'rxjs';
 
 const debug = Debug('extplane');
 
