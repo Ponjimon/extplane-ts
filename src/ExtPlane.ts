@@ -7,8 +7,6 @@ import {
     map,
     filter,
     mergeMap,
-    flatMap,
-    skipWhile,
 } from 'rxjs/operators';
 
 const debug = Debug('extplane');
